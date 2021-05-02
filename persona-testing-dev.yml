@@ -27,3 +27,9 @@ logging:
         web:
           servlet:
             DispatcherServlet: DEBUG
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
