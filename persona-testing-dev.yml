@@ -14,8 +14,6 @@ spring:
     showSql: true
     hibernate:
       ddlAuto: update
-
-spring:
   boot:
     admin:
       client:
