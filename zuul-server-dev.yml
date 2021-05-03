@@ -10,7 +10,10 @@ zuul:
     archivo:
       path: /archivos/**
       serviceId: archivo-testing
-
+    archivo:
+      path: /seguridad/**
+      serviceId: seguridad-server
+      
 spring:
   sleuth:
     sampler:
