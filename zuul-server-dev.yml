@@ -37,4 +37,13 @@ eureka:
         web:
           servlet:
             DispatcherServlet: DEBUG
+            
+management:
+    endpoint:
+        health:
+            show-details: always
+    endpoints:
+        web:
+            exposure:
+                include: '*'
 
