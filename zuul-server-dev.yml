@@ -30,8 +30,8 @@ eureka:
   instance:
     preferIpAddress: true
     
- logging:
-  level:
+logging:
+   level:
     org:
       springframework:
         web:
@@ -46,4 +46,3 @@ management:
         web:
             exposure:
                 include: '*'
-
