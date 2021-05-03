@@ -10,7 +10,7 @@ zuul:
     archivo:
       path: /archivos/**
       serviceId: archivo-testing
-    archivo:
+    seguridad:
       path: /seguridad/**
       serviceId: seguridad-server
       
