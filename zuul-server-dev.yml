@@ -7,7 +7,7 @@ zuul:
       path: /personas/**
       serviceId: persona-testing
     archivo:
-      path: /archivo/**
+      path: /archivos/**
       serviceId: archivo-testing
 
 spring:
